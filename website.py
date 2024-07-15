@@ -124,13 +124,6 @@ if selected == "Dataset":
     pie = px.pie(df, names='Category')
     st.plotly_chart(pie)
 
-
-
-
-
-
-
-
 ##### Classification Page ######
 
 if selected == "Classification":
@@ -211,12 +204,6 @@ if selected == "Visualization":
     #
     # ax2.text1.dispersion_plot(text)
     # st.pyplot(ax2)
-
-
-
-
-
-
 
 if selected == "Feedback":
     st.title("Feedback")
